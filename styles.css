@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.carta {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.carta-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carta-header img.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.carta-header h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.carta-header p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+.carta-body {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.carta-body p {
+    margin: 10px 0;
+}
+
+.carta-body strong {
+    color: #555;
+}
+
+
+.firma {
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+.pie-pagina {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    color: gray;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
